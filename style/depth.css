@@ -1,0 +1,13 @@
+/*
+ * Depth
+ */
+ 
+.foreground, [foreground]
+{
+	z-index: 9999 !important;	
+}
+
+.background, [background]
+{
+	z-index: -1 !important;	
+}
