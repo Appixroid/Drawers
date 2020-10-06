@@ -1,0 +1,114 @@
+/*
+ * Text
+ */
+ 
+.left-text, [text=left]
+{
+	text-align: left;
+}
+ 
+.centered-text, [text=center]
+{
+	text-align: center;
+}
+
+.right-text, [text=right]
+{
+	text-align: right;
+}
+
+.justified-text, [text=justify]
+{
+	text-align: justify;
+}
+
+.monospace, [font=monospace]
+{
+	font-family: monospace;	
+}
+
+.serif, [font=serif]
+{
+	font-family: serif;
+}
+
+.sans-serif, [font=sans]
+{
+	font-family: sans-serif;
+}
+
+.vertical-text, [text=vertical]
+{
+	max-width: 1em;
+	word-break: break-all;
+}
+
+.break-line-only, [break=line]
+{
+	overflow-wrap: normal;
+}
+
+.break-word, [break=word]
+{
+	overflow-wrap: break-word;
+}
+
+.ellipsis-text, [overflow=ellipsis]
+{
+	text-overflow: ellipsis;
+}
+
+.uppercase, [case=upper]
+{
+	text-transform: uppercase;
+}
+
+.lowercase, [case=lower]
+{
+	text-transform: lowercase;
+}
+
+.capitalized, [case=capitalized]
+{
+	text-transform: capitalize;
+}
+
+.underlined
+{
+	text-decoration-line: underline;
+}
+
+.overlined
+{
+	text-decoration-line: overline;
+}
+
+.crossed
+{
+	text-decoration-line: underline;
+}
+
+.solid-lined
+{
+	text-decoration-style: solid;
+}
+
+.double-lined
+{
+	text-decoration-style: double;
+}
+
+.dot-lined
+{
+	text-decoration-style: dotted;
+}
+
+.dash-lined
+{
+	text-decoration-style: dashed;
+}
+
+.wave-lined
+{
+	text-decoration-style: wavy;
+}
