@@ -1,0 +1,228 @@
+/*
+ * transform
+ */
+ 
+.left-origin, [origin=left]
+{
+	transform-origin: left;
+}
+ 
+.centered-origin, [origin=center]
+{
+	transform-origin: center;
+}
+ 
+.right-origin, [origin=right]
+{
+	transform-origin: right;
+}
+ 
+.top-origin, [origin=top]
+{
+	transform-origin: top;
+}
+ 
+.bottom-origin, [origin=bottom]
+{
+	transform-origin: bottom;
+}
+
+.top-left-origin, [origin=top-left]
+{
+	transform-origin: left top;
+}
+
+.top-center-origin, [origin=top-center]
+{
+	transform-origin: center top;
+}
+
+.top-right-origin, [origin=top-right]
+{
+	transform-origin: right top;
+}
+
+.center-left-origin, [origin=center-left]
+{
+	transform-origin: left center;
+}
+
+.center-right-origin, [origin=center-right]
+{
+	transform-origin: right center;
+}
+
+.bottom-left-origin, [origin=bottom-left]
+{
+	transform-origin: left bottom;
+}
+
+.bottom-right-origin, [origin=bottom-right]
+{
+	transform-origin: right bottom;
+}
+
+.bottom-center-origin, [origin=bottom-center]
+{
+	transform-origin: center bottom;
+}
+
+.eighth-circle-clockwise-rotatation, [rotatation=eighth-circle-clockwise]
+{
+	transform: rotate(45deg);
+}
+
+.eighth-circle-anticlockwise-rotatation, [rotatation=eighth-circle-anticlockwise]
+{
+	transform: rotate(-45deg);
+}
+
+.quarter-circle-clockwise-rotatation, [rotatation=quarter-circle-clockwise]
+{
+	transform: rotate(90deg);
+}
+
+.quarter-circle-anticlockwise-rotatation, [rotatation=quarter-circle-anticlockwise]
+{
+	transform: rotate(-90deg);
+}
+
+.three-eighth-circle-clockwise-rotatation, [rotatation=three-eighth-circle-clockwise]
+{
+	transform: rotate(135deg);
+}
+
+.three-eighth-circle-anticlockwise-rotatation, [rotatation=three-eighth-circle-anticlockwise]
+{
+	transform: rotate(-135deg);
+}
+
+.half-circle-clockwise-rotatation, [rotatation=half-circle-clockwise]
+{
+	transform: rotate(180deg);
+}
+
+.half-circle-anticlockwise-rotatation, [rotatation=half-circle-anticlockwise]
+{
+	transform: rotate(-180deg);
+}
+
+.five-eighth-circle-clockwise-rotatation, [rotatation=five-eighth-circle-clockwise]
+{
+	transform: rotate(225deg);
+}
+
+.five-eighth-circle-anticlockwise-rotatation, [rotatation=five-eighth-circle-anticlockwise]
+{
+	transform: rotate(-225deg);
+}
+
+.three-quarter-circle-clockwise-rotatation, [rotatation=three-quarter-circle-clockwise]
+{
+	transform: rotate(270deg);
+}
+
+.three-quarter-circle-anticlockwise-rotatation, [rotatation=three-quarter-circle-anticlockwise]
+{
+	transform: rotate(-270deg);
+}
+
+.seven-eighth-circle-clockwise-rotatation, [rotatation=seven-eighth-circle-clockwise]
+{
+	transform: rotate(315deg);
+}
+
+.seven-eighth-circle-anticlockwise-rotatation, [rotatation=seven-eighth-circle-anticlockwise]
+{
+	transform: rotate(-315deg);
+}
+
+.full-turn-clockwise-rotatation, [rotatation=full-turn-clockwise]
+{
+	transform: rotate(360deg);
+}
+
+.full-turn-anticlockwise-rotatation, [rotatation=full-turn-anticlockwise]
+{
+	transform: rotate(-360deg);
+}
+
+.quarter-size-right-movement, [movement=quarter-size-right]
+{
+	transform: translateX(25%);
+}
+
+.quarter-size-left-movement, [movement=quarter-size-left]
+{
+	transform: translateX(-25%);
+}
+
+.half-size-right-movement, [movement=half-size-right]
+{
+	transform: translateX(50%);
+}
+
+.half-size-left-movement, [movement=half-size-left]
+{
+	transform: translateX(-50%);
+}
+
+.three-quarter-size-right-movement, [movement=three-quarter-size-right]
+{
+	transform: translateX(75%);
+}
+
+.three-quarter-size-left-movement, [movement=three-quarter-size-left]
+{
+	transform: translateX(-75%);
+}
+
+.full-size-right-movement, [movement=full-size-right]
+{
+	transform: translateX(100%);
+}
+
+.full-size-left-movement, [movement=full-size-left]
+{
+	transform: translateX(-100%);
+}
+
+.quarter-size-bottom-movement, [movement=quarter-size-bottom]
+{
+	transform: translateY(25%);
+}
+
+.quarter-size-top-movement, [movement=quarter-size-top]
+{
+	transform: translateY(-25%);
+}
+
+.half-size-bottom-movement, [movement=half-size-bottom]
+{
+	transform: translateY(50%);
+}
+
+.half-size-top-movement, [movement=half-size-top]
+{
+	transform: translateY(-50%);
+}
+
+.three-quarter-size-bottom-movement, [movement=three-quarter-size-bottom]
+{
+	transform: translateY(75%);
+}
+
+.three-quarter-size-top-movement, [movement=three-quarter-size-top]
+{
+	transform: translateY(-75%);
+}
+
+.full-size-bottom-movement, [movement=full-size-bottom]
+{
+	transform: translateY(100%);
+}
+
+.full-size-top-movement, [movement=full-size-top]
+{
+	transform: translateY(-100%);
+}

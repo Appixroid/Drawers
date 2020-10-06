@@ -1,0 +1,255 @@
+/**
+ * Animation Settings
+ */
+
+.no-animation, [animation=none]
+{
+	animation-duration: 0s;
+	animation-iteration-count: 0;
+}
+
+.very-fast-animation, .fast-interface-animation, [duration=very-fast], [duration=fast-interface]
+{
+	animation-duration: 100ms;
+}
+
+.fast-animation, .slow-interface-animation, [duration=fast], [duration=slow-interface]
+{
+	animation-duration: 200ms;
+}
+
+.normal-duration-animation, .fast-move-animation, [duration=normal], [duration=fast-move]
+{
+	animation-duration: 300ms;
+}
+
+.slow-animation, .normal-move-animation, [duration=slow], [duration=normal-move]
+{
+	animation-duration: 400ms;
+}
+
+.very-slow-animation, .slow-move-animation, [duration=very-slow], [duration=slow-move]
+{
+	animation-duration: 500ms;
+}
+
+.ease-animation, .physical-animation, [acceleration=ease], [animation-usage=physical]
+{
+	animation-timing-function: ease;
+}
+
+.linear-animation, .state-animation, [acceleration=linear], [animation-usage=state]
+{
+	animation-timing-function: linear;
+}
+
+.accelerate-animation, .leaving-animation, [acceleration=accelerate], [animation-usage=leave]
+{
+	animation-timing-function: ease-in;
+}
+
+.deceleration-animation, .entering-animation, [acceleration=decelerate], [animation-usage=enter]
+{
+	animation-timing-function: ease-out;
+}
+
+.standard-animation, .interface-animation, [acceleration=standard], [animation-usage=interface]
+{
+	animation-timing-function: ease-in-out;
+}
+
+.first-animation, [order=first]
+{
+	animation-delay: 0ms;
+}
+
+.second-animation, [order=second]
+{
+	animation-delay: 100ms;
+}
+
+.third-animation, [order=third]
+{
+	animation-delay: 200ms;
+}
+
+.fourth-animation, [order=fourth]
+{
+	animation-delay: 300ms;
+}
+
+.fifth-animation, [order=fifth]
+{
+	animation-delay: 400ms;
+}
+
+.sixth-animation, [order=sixth]
+{
+	animation-delay: 500ms;
+}
+
+.keep-animation-end, [keep=end]
+{
+	animation-fill-mode: backwards;
+}
+
+.keep-animation-start, [keep=start]
+{
+	animation-fill-mode: forwards;
+}
+
+.round-animation, [direction=round]
+{
+	animation-direction: alternate;
+}
+
+.reverse-animation, [direction=reverse]
+{
+	animation-direction: reverse;
+}
+
+.round-reverse-animation, [direction=round-reverse]
+{
+	animation-direction: alternate-reverse;
+}
+
+.half-animation, [repetition=half]
+{
+	animation-iteration-count: 0.5;
+}
+
+.unique-animation, [repetition=unique]
+{
+	animation-iteration-count: 1;
+}
+
+.infinite-animation, [repetition=infinite]
+{
+	animation-iteration-count: infinite;
+}
+
+.loop-animation, [repetition=loop]
+{
+	animation-direction: alternate;
+	animation-iteration-count: infinite;
+}
+
+/**
+ * Animations
+ */
+
+.animate-on-start.shaking-animation, [animation=shaking][animateon=start]
+{
+	animation-name: shaking;
+}
+
+.animate-on-hover.shaking-animation:hover, [animation=shaking][animateon=hover]:hover
+{
+	animation-name: shaking;
+}
+
+@keyframes shaking
+{
+	0%, 100%
+	{
+		transform: translateX(0);
+	}
+	
+	10%, 30%, 50%, 70%, 90%
+	{
+		transform: translateX(-25%);
+	}
+
+	20%, 40%, 60%, 80%
+	{
+		transform: translateX(25%);
+	}
+}
+
+.animate-on-start.rotation-360-animation, [animation=rotation-360][animateon=start]
+{
+	animation-name: rotation-360;
+}
+
+.animate-on-hover.rotation-360-animation:hover, [animation=rotation-360][animateon=hover]:hover
+{
+	animation-name: rotation-360;
+}
+
+@keyframes rotation-360
+{
+	0%
+	{
+		transform: rotate(0deg);
+	}
+	100%
+	{
+		transform: rotate(360deg);
+	}
+}
+
+.animate-on-start.rotation-x-360-animation, [animation=rotation-x-360][animateon=start]
+{
+	animation-name: rotation-x-360;
+}
+
+.animate-on-hover.rotation-x-360-animation:hover, [animation=rotation-x-360][animateon=hover]:hover
+{
+	animation-name: rotation-x-360;
+}
+
+@keyframes rotation-x-360
+{
+	0%
+	{
+		transform: rotate3d(1, 0, 0, 0deg);
+	}
+	100%
+	{
+		transform: rotate3d(1, 0, 0, 360deg);
+	}
+}
+
+.animate-on-start.rotation-y-360-animation, [animation=rotation-y-360][animateon=start]
+{
+	animation-name: rotation-y-360;
+}
+
+.animate-on-hover.rotation-y-360-animation:hover, [animation=rotation-y-360][animateon=hover]:hover
+{
+	animation-name: rotation-y-360;
+}
+
+@keyframes rotation-y-360
+{
+	0%
+	{
+		transform: rotate3d(0, 1, 0, 0deg);
+	}
+	100%
+	{
+		transform: rotate3d(0, 1, 0, 360deg);
+	}
+}
+
+.animate-on-start.rotation-z-360-animation, [animation=rotation-z-360][animateon=start]
+{
+	animation-name: rotation-z-360;
+}
+
+.animate-on-hover.rotation-z-360-animation:hover, [animation=rotation-z-360][animateon=hover]:hover
+{
+	animation-name: rotation-z-360;
+}
+
+@keyframes rotation-z-360
+{
+	0%
+	{
+		transform: rotate3d(0, 0, 1, 0deg);
+	}
+	100%
+	{
+		transform: rotate3d(0, 0, 1, 360deg);
+	}
+}
