@@ -1,0 +1,179 @@
+/*
+ * Cursor
+ */
+
+.default-cursor, [cursor=default]
+{
+	cursor: default;
+}
+
+.no-cursor, [cursor=none]
+{
+	cursor: none;
+}
+
+.context-cursor, [cursor=context]
+{
+	cursor: context-menu;
+}
+
+.help-cursor, [cursor=help]
+{
+	cursor: help;
+}
+
+.pointer-cursor, [cursor=pointer]
+{
+	cursor: pointer;
+}
+
+.progress-cursor, [cursor=progress]
+{
+	cursor: progress;
+}
+
+.waiting-cursor, [cursor=waiting]
+{
+	cursor: wait;
+}
+
+.cell-cursor, [cursor=cell]
+{
+	cursor: cell;
+}
+
+.crosshair-cursor, [cursor=crosshair]
+{
+	cursor: crosshair;
+}
+
+.text-cursor, [cursor=text]
+{
+	cursor: text;
+}
+
+.vertical-text-cursor, [cursor=vertical-text]
+{
+	cursor: vertical-text;
+}
+
+.link-cursor, [cursor=link]
+{
+	cursor: alias;
+}
+
+.copy-cursor, [cursor=copy]
+{
+	cursor: copy;
+}
+
+.move-cursor, [cursor=move]
+{
+	cursor: move;
+}
+
+.no-drop-cursor, [cursor=no-drop]
+{
+	cursor: no-drop;
+}
+
+.grab-cursor, [cursor=grab]
+{
+	cursor: grab;
+}
+
+.grabbing-cursor, [cursor=grabbing]
+{
+	cursor: grabbing;
+}
+
+.not-allowed-cursor, [cursor=not-allowed]
+{
+	cursor: not-allowed;
+}
+
+.all-scroll-cursor, [cursor=all-scroll]
+{
+	cursor: all-scroll;
+}
+
+.col-resize-cursor, [cursor=col-resize]
+{
+	cursor: col-resize;
+}
+
+.row-resize-cursor, [cursor=row-resize]
+{
+	cursor: row-resize;
+}
+
+.north-resize-cursor, [cursor=north-resize]
+{
+	cursor: n-resize;
+}
+
+.east-resize-cursor, [cursor=east-resize]
+{
+	cursor: e-resize;
+}
+
+.south-resize-cursor, [cursor=south-resize]
+{
+	cursor: s-resize;
+}
+
+.west-resize-cursor, [cursor=west-resize]
+{
+	cursor: w-resize;
+}
+
+.north-east-resize-cursor, [cursor=north-east-resize]
+{
+	cursor: ne-resize;
+}
+
+.north-west-resize-cursor, [cursor=north-west-resize]
+{
+	cursor: nw-resize;
+}
+
+.south-east-resize-cursor, [cursor=south-east-resize]
+{
+	cursor: se-resize;
+}
+
+.south-west-resize-cursor, [cursor=south-west-resize]
+{
+	cursor: sw-resize;
+}
+
+.east-west-resize-cursor, [cursor=east-west-resize]
+{
+	cursor: ew-resize;
+}
+
+.north-south-resize-cursor, [cursor=north-south-resize]
+{
+	cursor: ns-resize;
+}
+
+.north-east-south-west-resize-cursor, [cursor=north-east-south-west-resize]
+{
+	cursor: nesw-resize;
+}
+
+.north-west-south-east-resize-cursor, [cursor=north-west-south-east-resize]
+{
+	cursor: nwse-resize;
+}
+
+.zoom-in-cursor, [cursor=zoom-in]
+{
+	cursor: zoom-in;
+}
+
+
+.zoom-out-cursor, [cursor=zoom-out]
+{
+	cursor: zoom-out;
+}
