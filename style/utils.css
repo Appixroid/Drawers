@@ -1,0 +1,86 @@
+/*
+ * Utils
+ */
+ 
+.horizontally-scrollable, [scrollable=horizontally]
+{
+	overflow-x: scroll;
+}
+
+.horizontally-unscrollable, [unscrollable=horizontally]
+{
+	overflow-x: hidden;
+}
+
+.horizontally-optionally-scrollable, [optionally-scrollable=horizontally]
+{
+	overflow-x: auto;
+}
+
+.vertically-scrollable, [scrollable=vertically]
+{
+	overflow-y: scroll;
+}
+
+.vertically-unscrollable, [unscrollable=vertically]
+{
+	overflow-y: hidden;
+}
+
+.vertically-optionally-scrollable, [optionally-scrollable=vertically]
+{
+	overflow-y: auto;
+}
+
+.scrollable, [scrollable=both]
+{
+	overflow: scroll;
+}
+
+.unscrollable, [unscrollable=both]
+{
+	overflow: hidden;
+}
+
+.optionally-scrollable, [optionally-scrollable=both]
+{
+	overflow: auto;
+}
+
+.unselectable, [unselectable]
+{
+	user-select: none;
+}
+
+.clickable, [clickable]
+{
+	cursor: pointer;
+}
+
+.unresizable, [resizable=none]
+{
+	resize: none;
+}
+
+.resizable, [resizable=both]
+{
+	resize: both;
+}
+
+.horizontally-resizable, [resizable=horizontally]
+{
+	resize: horizontal;
+}
+
+.vertically-resizable, [resizable=vertically]
+{
+	resize: vertical;
+}
+
+@media print
+{
+	.unprintable, [unprintable]
+	{
+		display: none;
+	}
+}
