@@ -1,0 +1,29 @@
+/**
+ * Background
+ */
+ 
+.no-background, [background=none]
+{
+	background: transparent;
+}
+ 
+.full-background, [background=full]
+{
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+}
+
+.mosaic-background, [background=mosaic]
+{
+	background-repeat: repeat;
+	background-position: top left;
+	background-attachment: fixed;
+}
+
+.text-background, [background=text]
+{
+	background-clip: text;
+	color: transparent;
+}

@@ -1,0 +1,38 @@
+/**
+ * Border
+ */
+ 
+.no-border, [border=none]
+{
+	border: none;
+}
+
+.rounded-corner, [corner=rounded]
+{
+	border-radius: 0.25rem;
+}
+
+.circle, [corner=circle]
+{
+	border-radius: 50%;
+}
+
+.solid-border, [border=solid]
+{
+	border-style: solid;
+}
+
+.dotted-border, [border=dotted]
+{
+	border-style: dotted;
+}
+
+.dashed-border, [border=dashed]
+{
+	border-style: dashed;
+}
+
+.thin-border, [thickness=thin]
+{
+	border-width: 1px; 
+}

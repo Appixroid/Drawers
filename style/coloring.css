@@ -1,0 +1,184 @@
+/**
+ * Color
+ */
+
+:root
+{
+	--color-light: #EFEEE5;
+	--color-dark: black;
+	
+	--color-info: #2196F3;
+	--color-text-on-info: var(--color-dark);
+	
+	--color-warning: #FFC107;
+	--color-text-on-warning: var(--color-dark);
+	
+	--color-error: #F44336;
+	--color-text-on-error: var(--color-dark);
+
+	--color-primary: #BA5A31;
+	--color-primary-variant: #953C17;
+	--color-text-on-primary: var(--color-light);
+	
+	--color-secondary: #9F87AF;
+	--color-secondary-variant: #7F5F95;
+	--color-text-on-secondary: var(--color-light);
+	
+}
+
+.primary, [color=primary]
+{
+	background-color: var(--color-primary);
+	color: var(--color-text-on-primary);
+}
+
+.primary-text, [text-color=primary]
+{
+	color: var(--color-primary);
+}
+
+.text-on-primary, [text-color=on-primary]
+{
+	color: var(--color-text-on-primary);
+}
+
+.primary-background, [background-color=primary]
+{
+	background-color: var(--color-primary);
+}
+
+.primary-border, [border-color=primary]
+{
+	border-color: var(--color-primary);
+}
+
+.secondary, [color=secondary]
+{
+	background-color: var(--color-secondary);
+	color: var(--color-text-on-secondary);
+}
+
+.secondary-text, [text-color=secondary]
+{
+	color: var(--color-secondary);
+}
+
+.text-on-secondary, [text-color=on-secondary]
+{
+	color: var(--color-text-on-secondary);
+}
+
+.secondary-background, [background-color=secondary]
+{
+	background-color: var(--color-secondary);
+}
+
+.secondary-border, [border-color=secondary]
+{
+	border-color: var(--color-secondary);
+}
+
+.info, [color=info]
+{
+	background-color: var(--color-info);
+	color: var(--color-text-on-info);
+}
+
+.info-text, [text-color=info]
+{
+	color: var(--color-info);
+}
+
+.info-background, [background-color=info]
+{
+	background-color: var(--color-info);
+}
+
+.info-border, [border-color=info]
+{
+	border-color: var(--color-info);
+}
+
+.warning, [color=warning]
+{
+	background-color: var(--color-warning);
+	color: var(--color-text-on-warning);
+}
+
+.warning-text, [text-color=warning]
+{
+	color: var(--color-warning);
+}
+
+.warning-background, [background-color=warning]
+{
+	background-color: var(--color-warning);
+}
+
+.warning-border, [border-color=warning]
+{
+	border-color: var(--color-warning);
+}
+
+.error, [color=error]
+{
+	background-color: var(--color-error);
+	color: var(--color-text-on-error);
+}
+
+.error-text, [text-color=error]
+{
+	color: var(--color-error);
+}
+
+.error-background, [background-color=error]
+{
+	background-color: var(--color-error);
+}
+
+.error-border, [border-color=error]
+{
+	border-color: var(--color-error);
+}
+
+.light, [color=light]
+{
+	background-color: var(--color-light);
+	color: var(--color-dark);
+}
+
+.light-text, [text-color=light]
+{
+	color: var(--color-light);
+}
+
+.light-background, [background-color=light]
+{
+	background-color: var(--color-light);
+}
+
+.light-border, [border-color=light]
+{
+	border-color: var(--color-light);
+}
+
+.dark, [color=dark]
+{
+	background-color: var(--color-dark);
+	color: var(--color-light);
+}
+
+.dark-text, [text-color=dark]
+{
+	color: var(--color-dark);
+}
+
+.dark-background, [background-color=dark]
+{
+	background-color: var(--color-dark);
+}
+
+.dark-border, [border-color=dark]
+{
+	border-color: var(--color-dark);
+}
