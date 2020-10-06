@@ -1,0 +1,88 @@
+/*
+ * Boxes
+ */
+ 
+.row-layout, [layout=row]
+{
+	display: flex;
+	flex-direction: row;
+}
+
+.row-reverse-layout, [layout=reverse-row]
+{
+	display: flex;
+	flex-direction: row-reverse;
+}
+
+.column-layout, [layout=column]
+{
+	display: flex;
+	flex-direction: column;
+}
+
+.column-reverse-layout, [layout=reverse-column]
+{
+	display: flex;
+	flex-direction: column-reverse;
+}
+
+.nowraped-layout, [layout-wrap=false]
+{
+	flex-wrap: nowrap;
+}
+
+.wraped-layout, [layout-wrap=true]
+{
+	flex-wrap: wrap;
+}
+
+.start-aligned-layout, [layout-align=start]
+{
+	align-items: flex-start;
+}
+
+.center-aligned-layout, [layout-align=center]
+{
+	align-items: center;
+}
+
+.end-aligned-layout, [layout-align=end]
+{
+	align-items: flex-end;
+}
+
+.stretch-aligned-layout, [layout-align=stretch]
+{
+	align-items: stretch;
+}
+
+.start-justified-layout, [layout-justify=start]
+{
+	justify-content: flex-start;
+}
+
+.center-justified-layout, [layout-justify=center]
+{
+	justify-content: center;
+}
+
+.end-justified-layout, [layout-justify=end]
+{
+	justify-content: flex-end;
+}
+
+.between-justified-layout, [layout-justify=between]
+{
+	justify-content: space-between;
+}
+
+.around-justified-layout, [layout-justify=around]
+{
+	justify-content: space-around;
+}
+
+.full-centered-layout, [layout-center]
+{
+	align-items: center;
+	justify-content: center;
+}
