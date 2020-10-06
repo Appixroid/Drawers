@@ -1,0 +1,33 @@
+/*
+ * Visibility
+ */
+ 
+.block, [block]
+{
+	display: block;
+}
+
+.inline, [inline]
+{
+	display: inline;
+}
+
+.inline-block, [inline-block]
+{
+	display: inline-block;
+}
+
+.not-displayed, [not-displayed]
+{
+	display: none;
+}
+
+.visible, [visible]
+{
+	visibility: visible;
+}
+
+.invisible, [invisible]
+{
+	visibility: hidden;
+}

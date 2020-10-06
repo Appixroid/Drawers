@@ -1,0 +1,195 @@
+/*
+ * Sizing
+ */
+
+.full-width, [widht=full]
+{
+	width: 100%;
+}
+
+.three-quarter-width, [widht=three-quarter]
+{
+	width: 75%;
+}
+
+.two-third-width, [widht=two-third]
+{
+	width: 66%;
+}
+
+.half-width, [widht=half]
+{
+	width: 50%;
+}
+
+.third-width, [widht=third]
+{
+	width: 33%;
+}
+
+.quarter-width, [widht=quarter]
+{
+	width: 25%;
+}
+
+.full-height, [height=full]
+{
+	height: 100%;
+}
+
+.three-quarter-height, [height=three-quarter]
+{
+	height: 75%;
+}
+
+.two-third-height, [height=two-third]
+{
+	height: 66%;
+}
+
+.half-height, [height=half]
+{
+	height: 50%;
+}
+
+.third-height, [height=third]
+{
+	height: 33%;
+}
+
+.quarter-height, [height=quarter]
+{
+	height: 25%;
+}
+
+.full-size, [size=full]
+{
+	width: 100%;
+	height: 100%;
+}
+
+.three-quarter-size, [size=three-quarter]
+{
+	width: 75%;
+	height: 75%;
+}
+
+.two-third-size, [size=two-third]
+{
+	width: 66%;
+	height: 66%;
+}
+
+.half-size, [size=half]
+{
+	width: 50%;
+	height: 50%;
+}
+
+.third-size, [size=third]
+{
+	width: 33%;
+	height: 33%;
+}
+
+.quarter-size, [size=quarter]
+{
+	width: 25%;
+	height: 25%;
+}
+
+.full-horizontal-viewport, [viewport-width=full]
+{
+	width: 100vw;
+}
+
+.three-quarter-horizontal-viewport, [viewport-width=three-quarter]
+{
+	width: 75vw;
+}
+
+.two-third-horizontal-viewport, [viewport-width=two-third]
+{
+	width: 66vw;
+}
+
+.half-horizontal-viewport, [viewport-width=half]
+{
+	width: 50vw;
+}
+
+.third-horizontal-viewport, [viewport-width=third]
+{
+	width: 33vw;
+}
+
+.quarter-horizontal-viewport, [viewport-width=quarter]
+{
+	width: 25vw;
+}
+
+.full-vertical-viewport, [viewport-height=full]
+{
+	height: 100vh;
+}
+
+.three-quarter-vertical-viewport, [viewport-height=three-quarter]
+{
+	height: 75vh;
+}
+
+.two-third-vertical-viewport, [viewport-height=two-third]
+{
+	height: 66vh;
+}
+
+.half-vertical-viewport, [viewport-height=half]
+{
+	height: 50vh;
+}
+
+.third-vertical-viewport, [viewport-height=third]
+{
+	height: 33vh;
+}
+
+.quarter-vertical-viewport, [viewport-height=quarter]
+{
+	height: 25vh;
+}
+
+.full-viewport, [viewport=full]
+{
+	width: 100vw;
+	height: 100vh;
+}
+
+.three-quarter-viewport, [viewport=three-quarter]
+{
+	width: 75vw;
+	height: 75vh;
+}
+
+.two-third-viewport, [viewport=two-third]
+{
+	width: 66vw;
+	height: 66vh;
+}
+
+.half-viewport, [viewport=half]
+{
+	width: 50vw;
+	height: 50vh;
+}
+
+.third-viewport, [viewport=third]
+{
+	width: 33vw;
+	height: 33vh;
+}
+
+.quarter-viewport, [viewport=quarter]
+{
+	width: 25vw;
+	height: 25vh;
+}

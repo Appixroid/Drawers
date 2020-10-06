@@ -1,0 +1,79 @@
+/*
+ * Position
+ */
+ 
+.corner-top-left, [corner=top-left]
+{
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.corner-top-right, [corner=top-right]
+{
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+
+.corner-bottom-right, [corner=bottom-right]
+{
+	position: absolute;
+	bottom: 0;
+	right: 0;
+}
+
+.corner-bottom-left, [corner=bottom-left]
+{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+}
+
+.corner-center-left, [corner=center-left]
+{
+	position: absolute;
+	top: calc(50vh - 50%);
+	left: 0;
+}
+
+.corner-center-top, [corner=center-top]
+{
+	position: absolute;
+	top: 0;
+	left: calc(50vw - 50%);
+}
+
+.corner-center-right, [corner=center-right]
+{
+	position: absolute;
+	top: calc(50vh - 50%);
+	right: 0;
+}
+
+.corner-center-bottom, [corner=center-bottom]
+{
+	position: absolute;
+	bottom: 0;
+	left: calc(50vw - 50%);
+}
+
+.absolute, [absolute]
+{
+	position: absolute;
+}
+
+.relative, [relative]
+{
+	position: relative;
+}
+
+.fixed, [fixed]
+{
+	position: fixed;
+}
+
+.sticky, [sticky]
+{
+	position: sticky;
+}
