@@ -18,9 +18,8 @@ _Sizable.listenMouseMove = function(event)
 	let offsetX = event.clientX - data.startX;
 	let offsetY = event.clientY - data.startY;
 		
-	let sizeIncrement = Math.min(offsetX, offsetY);
-	let newWidth = parseInt(target.style.width) + sizeIncrement;
-	let newHeight = parseInt(target.style.height) + sizeIncrement;
+	let newWidth = parseInt(target.style.width) + offsetX;
+	let newHeight = parseInt(target.style.height) + offsetY;
 		
 	target.style.width = newWidth + "px";
 	target.style.height = newHeight + "px";
