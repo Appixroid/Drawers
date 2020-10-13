@@ -18,6 +18,13 @@ _Sizable.listenMouseMove = function(event)
 	let offsetX = event.clientX - data.startX;
 	let offsetY = event.clientY - data.startY;
 		
+	if(event.shiftKey)
+	{
+		let maxOffset = Math.max(offsetX, offsetY);
+		offsetX = maxOffset;
+		offsetY = maxOffset;
+	}
+		
 	let newWidth = parseInt(target.style.width) + offsetX;
 	let newHeight = parseInt(target.style.height) + offsetY;
 		
