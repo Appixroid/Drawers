@@ -72,7 +72,7 @@ _Sizable.addResizer = function(element)
 
 _Sizable.init = function()
 {
-	document.querySelectorAll("[" + this.RESIZE_ATTRIBUTE + "]").forEach(function(element){
+	document.querySelectorAll("[" + this.RESIZE_ATTRIBUTE + "]").forEach(element => {
 		this.addResizer(element);
 	});
 };

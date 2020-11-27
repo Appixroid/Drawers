@@ -20,7 +20,7 @@ _Confirm.listenForConfirm = function(element)
 
 _Confirm.init = function()
 {
-	document.querySelectorAll("[" + this.CONFIRM_ATTRIBUTE + "]").forEach(function(element){
+	document.querySelectorAll("[" + this.CONFIRM_ATTRIBUTE + "]").forEach(element => {
 		this.listenForConfirm(element);
 	});
 };

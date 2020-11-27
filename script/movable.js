@@ -75,7 +75,7 @@ _Movable.addMover = function(element)
 
 _Movable.init = function()
 {
-	document.querySelectorAll("[" + this.LANDING_ATTRIBUTE + "]").forEach(function(element){
+	document.querySelectorAll("[" + this.LANDING_ATTRIBUTE + "]").forEach(element => {
 		this.addMover(element);
 	});
 };

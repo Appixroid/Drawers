@@ -100,7 +100,7 @@ _ColorPicker.addPicker = function(element)
 
 _ColorPicker.init = function()
 {
-	document.querySelectorAll("[" + this.PICKER_ATTRIBUTE + "]").forEach(function(element){
+	document.querySelectorAll("[" + this.PICKER_ATTRIBUTE + "]").forEach(element => {
 		this.addPicker(element);
 	});
 };
