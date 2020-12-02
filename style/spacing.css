@@ -1,0 +1,69 @@
+.no-margin, [margin=none]
+{
+	margin: 0;
+}
+
+.no-x-margin, [margin-x=none]
+{
+	margin: auto 0;
+}
+
+.no-y-margin, [margin-y=none]
+{
+	margin: 0 auto;
+}
+
+.no-top-margin, [margin-top=none]
+{
+	margin-top: 0;
+}
+
+.no-right-margin, [margin-right=none]
+{
+	margin-right: 0;
+}
+
+.no-bottom-margin, [margin-bottom=none]
+{
+	margin-bottom: 0;
+}
+
+.no-left-margin, [margin-left=none]
+{
+	margin-left: 0;
+}
+
+.no-padding, [padding=none]
+{
+	padding: 0;
+}
+
+.no-x-padding, [padding-x=none]
+{
+	padding: auto 0;
+}
+
+.no-y-padding, [padding-y=none]
+{
+	padding: 0 auto;
+}
+
+.no-top-padding, [padding-top=none]
+{
+	padding-top: 0;
+}
+
+.no-right-padding, [padding-right=none]
+{
+	padding-right: 0;
+}
+
+.no-bottom-padding, [padding-bottom=none]
+{
+	padding-bottom: 0;
+}
+
+.no-left-padding, [padding-left=none]
+{
+	padding-left: 0;
+}
