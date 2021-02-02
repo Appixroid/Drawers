@@ -13,4 +13,6 @@ _XML.stringify = function(doc)
 	return doc.documentElement.outerHTML;
 };
 
+_XML.init = function(){};
+
 window.getDrawersInstance().loadDrawer(_XML);
