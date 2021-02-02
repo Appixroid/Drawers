@@ -8,9 +8,8 @@ const _Drawers = {
 	version: "Drawers 1.0",
 	drawers: {},
 
-	loadDrawer: function(o, force = false)
-	{
-		if(this.drawers[o.name] == undefined || force)
+	loadDrawer: function(o, force = false) {
+		if(this.drawers[o.name] === undefined || force)
 		{
 			this.drawers[o.name] = o;
 		}
@@ -20,11 +19,10 @@ const _Drawers = {
 		}
 	},
 	
-	getDrawer: function(name)
-	{
+	getDrawer: function(name) {
 		let drawer = this.drawers[name];
 		
-		if(drawer != undefined)
+		if(drawer !== undefined)
 		{
 			return drawer;
 		}
@@ -34,8 +32,7 @@ const _Drawers = {
 		}
 	},
 	
-	initAll: function()
-	{
+	initAll: function() {
 		for(let drawerName in this.drawers)
 		{
 			this.drawers[drawerName].init();

@@ -51,8 +51,7 @@ function ContextMenuLink(text, url, icon =  "", style = {})
 	this.url = url;
 	this.activeElement = null;
 	
-	this.toElement = function()
-	{
+	this.toElement = function() {
 		let container = document.createElement("a");
 		container.style.cursor = "pointer";
 		container.style.width = "calc(100% - 1em)";
@@ -77,7 +76,7 @@ function ContextMenuLink(text, url, icon =  "", style = {})
 		image.style.height = "1em";
 		image.style.marginRight = "0.5em";
 		
-		if(icon.length == 0)
+		if(icon.length === 0)
 		{
 			image.style.visibility = "hidden";
 		}
@@ -97,8 +96,7 @@ function ContextMenuSeparator(style = {})
 {
 	this.activeElement = null;
 	
-	this.toElement = function()
-	{
+	this.toElement = function() {
 		let element = document.createElement("hr");
 		element.style.width = "100%";
 		element.style.border = "none";
@@ -210,7 +208,7 @@ _Context.init = function()
 _Context.removeContextMenu = function()
 {
 	let openedContext = document.getElementById(_CONTEXT_DRAWER_NAME);
-	if(openedContext != null)
+	if(openedContext !== null)
 	{
 		openedContext.remove();
 	}

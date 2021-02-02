@@ -12,8 +12,7 @@ _Movable.OVERLAP_ATTRIBUTE = "dropoverlap";
 
 _Movable.movingEffect = "move";
 
-_Movable.moveElementDuringDrag = function(event)
-{
+_Movable.moveElementDuringDrag = function(event) {
 	let data = JSON.parse(event.dataTransfer.getData("text/plain"));
 
 	let landingAreaId = data.landing;
@@ -28,8 +27,7 @@ _Movable.moveElementDuringDrag = function(event)
 	}
 };
 
-_Movable.addMover = function(element)
-{
+_Movable.addMover = function(element) {
 	let targetId = element.getAttribute(this.TARGET_ATTRIBUTE) || element.id;
 	let landingAreaId = element.getAttribute(this.LANDING_ATTRIBUTE);
 	let landingArea = document.getElementById(landingAreaId);
@@ -49,7 +47,7 @@ _Movable.addMover = function(element)
 		event.dataTransfer.dropEffect = this.movingEffect;
 		
 		let movingSrc = element.getAttribute(this.IMAGE_ATTRIBUTE);
-		if(movingSrc != null && movingSrc != "")
+		if(movingSrc !== null && movingSrc !== "")
 		{
 			ev.dataTransfer.setDragImage(movingSrc, 0, 0)
 		}
@@ -73,8 +71,7 @@ _Movable.addMover = function(element)
 	});
 };
 
-_Movable.init = function()
-{
+_Movable.init = function() {
 	document.querySelectorAll("[" + this.LANDING_ATTRIBUTE + "]").forEach(element => {
 		this.addMover(element);
 	});

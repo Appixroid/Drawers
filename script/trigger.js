@@ -7,8 +7,7 @@ _Trigger.TRIGGER_STYLE_ATTRIBUTE = "trigger-style";
 _Trigger.triggers = {};
 _Trigger.triggerStyles = {};
 
-_Trigger.listenForTrigger = function(element)
-{
+_Trigger.listenForTrigger = function(element) {
 	let targetId = element.getAttribute(this.TRIGGER_ATTRIBUTE);
 	
 	let triggerStyle = element.getAttribute(this.TRIGGER_STYLE_ATTRIBUTE);
@@ -32,8 +31,7 @@ _Trigger.listenForTrigger = function(element)
 	});
 }
 
-_Trigger.triggerElement = function(source)
-{
+_Trigger.triggerElement = function(source) {
 	for(let triggerId in this.triggers)
 	{
 		this.triggers[triggerId].style.display = "none";
@@ -43,8 +41,7 @@ _Trigger.triggerElement = function(source)
 	this.triggers[triggerId].style.display = this.triggerStyles[triggerId];
 }
 
-_Trigger.init = function()
-{
+_Trigger.init = function() s{
 	document.querySelectorAll("[" + this.TRIGGER_ATTRIBUTE + "]").forEach(element => {
 		this.listenForTrigger(element);
 	});

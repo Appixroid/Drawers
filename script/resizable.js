@@ -9,8 +9,7 @@ _Sizable.INSTANT = "instant";
 
 _Sizable.currentResizingData = {target: "", startX: 0, startY: 0};
 
-_Sizable.listenMouseMove = function(event)
-{
+_Sizable.listenMouseMove = function(event) {
 	let sizable = window.getDrawersInstance().getDrawer(_SIZABLE_DRAWER_NAME);
 	let data = sizable.currentResizingData;
 		
@@ -35,8 +34,7 @@ _Sizable.listenMouseMove = function(event)
 	sizable.currentResizingData.startY = event.clientY;
 };
 
-_Sizable.stopListeningMouseMove = function(event)
-{
+_Sizable.stopListeningMouseMove = function(event) {
 	let sizable = window.getDrawersInstance().getDrawer(_SIZABLE_DRAWER_NAME);
 	sizable.listenMouseMove(event);
 	
@@ -47,8 +45,7 @@ _Sizable.stopListeningMouseMove = function(event)
 	document.body.removeEventListener("mouseup", sizable.stopListeningMouseMove);
 }
 
-_Sizable.addResizer = function(element)
-{
+_Sizable.addResizer = function(element) {
 	let targetId = element.getAttribute(this.RESIZE_ATTRIBUTE);
 	let isContinuous = element.getAttribute(this.STYLE_ATTRIBUTE) == this.CONTINUOUS;
 	
@@ -70,8 +67,7 @@ _Sizable.addResizer = function(element)
 	});
 };
 
-_Sizable.init = function()
-{
+_Sizable.init = function() {
 	document.querySelectorAll("[" + this.RESIZE_ATTRIBUTE + "]").forEach(element => {
 		this.addResizer(element);
 	});
