@@ -50,24 +50,46 @@ class _RSSReader extends _RSSElement
 		
 		this.document = null;
 		this.element = null;
-	
-		const XML = window.getDrawersInstance().getDrawer("XML");
-		
+			
 		if(data.startsWith("http://") || data.startsWith("https://"))
 		{
 			const ajax = window.getDrawersInstance().getDrawer("ajax");
 			
 			ajax.get(data, {}, {}).then((result) => {
-				this.document = XML.parse(result);
-				this.element = this.document.getElementsByTagName("channel")[0];
-				this.emitEvent("load", this);
+				this.parseDocument(result);
+			}).catch(() => {
+				this.emitEvent("invalid", {
+					target: this,
+					reason: "Cannot fetch ressource"
+				});
 			});
 		}
 		else
 		{
+			this.parseDocument(data);
+		}
+	}
+	
+	parseDocument(data) {
+		try
+		{
+			const XML = window.getDrawersInstance().getDrawer("XML");
+
 			this.document = XML.parse(data);
-			this.element = this.document.getElementByTagName("channel")[0];
-			this.emitEvent("load", this);
+			this.element = this.document.getElementsByTagName("channel")[0];
+			
+			this.emitEvent("load", {
+				target: this,
+				method: "parsing"
+			});
+		}
+		catch(error)
+		{
+			console.error(error);
+			this.emitEvent("invalid", {
+				target: this,
+				reason: "Invalid Document"
+			});
 		}
 	}
 	
